@@ -31,7 +31,7 @@ tst_h_enums tst_h_dimscales4 tst_h_rename
 
 # If benchmarks were turned on, build and run more tests.
 if BUILD_BENCHMARKS
-H5TESTS += tst_h_mem
+H5TESTS += tst_h_mem tst_h_file_perf 
 endif # BUILD_BENCHMARKS
 
 # List of tests to compile.
